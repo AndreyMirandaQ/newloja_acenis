@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'BalooThambi';
+  src: url('./assets/fonts/BalooThambi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Aplica globalmente */
+body {
+  font-family: 'BalooThambi', sans-serif;
+}
