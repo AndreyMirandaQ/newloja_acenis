@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .bannerSection {
@@ -30,7 +31,7 @@
   text-align: left;
   padding: 0 20px 0 230px;
   max-width: 800px;
-  margin: -40px auto 0 0; 
+  margin: -40px auto 0 0;
 }
 
 .bannerWelcome {
@@ -59,6 +60,12 @@
   display: flex;
   gap: 0;
   background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .bannerCards {
+    display: none;
+  }
 }
 
 .bannerCard {
@@ -176,6 +183,7 @@
   align-items: center;
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  margin: 0 auto;
 }
 
 .linkCard {
@@ -236,14 +244,12 @@
   font-weight: bold;
 }
 
+/* Banner feedback removido */
 .bannerFeedback {
-  height: 600px;
-  background-image: url('../assets/img/bannercolecao.png');
-  background-size: cover;
-  background-position: center;
-  margin-top: 60px;
+  display: none;
 }
 
+/* Seção de feedbacks */
 .feedbackSection {
   padding: 80px 20px;
   text-align: center;
@@ -276,7 +282,6 @@
   border-radius: 16px;
   width: 100%;
   max-width: 720px;
-  height: 400px;
   box-sizing: border-box;
   text-align: center;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
@@ -338,8 +343,6 @@
   font-size: 20px;
   color: #333;
   line-height: 1.7;
-  overflow: auto;
-  flex-grow: 1;
   width: 100%;
   padding: 0 10px;
 }
@@ -374,17 +377,10 @@
   .bannerContent {
     padding-left: 60px;
   }
-  .bannerCards {
-    flex-direction: column;
-    width: 100%;
-    gap: 12px;
-    padding: 0 20px;
-  }
-  .bannerCard {
-    width: 100%;
-  }
+
   .produtosGrid {
     gap: 40px;
+    justify-content: center;
   }
 }
 
@@ -392,30 +388,35 @@
   .bannerTitle {
     font-size: 34px;
   }
+
   .bannerSubtitle {
     font-size: 18px;
   }
+
   .bannerWelcome {
     font-size: 18px;
   }
+
   .produtosTitulo {
     font-size: 36px;
   }
+
   .produtosSubtitulo {
     font-size: 18px;
   }
+
   .produtoPreco {
     font-size: 22px;
   }
-  .feedbackTitulo {
-    font-size: 42px;
-  }
+
   .feedbackCard {
     height: auto;
-    padding: 30px 20px;
   }
+
   .depoimento {
-    font-size: 18px;
+    overflow: visible;
+    flex-grow: unset;
+    max-height: none;
   }
 }
 
@@ -423,32 +424,48 @@
   .bannerContent {
     padding-left: 20px;
   }
+
   .bannerTitle {
     font-size: 28px;
   }
+
   .bannerSubtitle {
     font-size: 16px;
   }
+
   .produtosTitulo {
     font-size: 28px;
   }
+
   .produtosSubtitulo {
     font-size: 16px;
   }
+
   .cardProduto {
     width: 100%;
   }
+
   .produtoPreco {
     font-size: 20px;
   }
+
   .feedbackTitulo {
     font-size: 32px;
   }
+
   .depoimento {
     font-size: 16px;
+    overflow: visible;
+    flex-grow: unset;
+    max-height: none;
   }
+
   .bolinha {
     width: 10px;
     height: 10px;
+  }
+
+  .feedbackCard {
+    height: auto;
   }
 }
