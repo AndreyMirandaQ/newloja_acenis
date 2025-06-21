@@ -468,4 +468,10 @@
   .feedbackCard {
     height: auto;
   }
+
+  /* Centraliza produtos no responsivo celular */
+  .produtosGrid {
+    justify-content: center;
+    padding: 0 10px;
+  }
 }

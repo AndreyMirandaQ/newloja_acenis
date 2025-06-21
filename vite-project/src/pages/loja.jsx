@@ -152,7 +152,7 @@ export default function LojaAcenis() {
 
         {/* Cards de produto */}
         <div className={styles.produtosGrid}>
-          <a href="#" className={styles.linkCard}>
+          <a href="https://www.rihappy.com.br/quebra-cabeca-vincent-van-gogh-a-noite-estrelada-1000-pecas-game-office-toyster/p" className={styles.linkCard}>
             <div className={styles.cardProduto}>
               <img src={quebra1} alt="Produto 1" className={styles.produtoImagem} />
               <h3 className={styles.produtoNome}>Quebra Cabeça - A Noite Estrelada - 1000 Peças</h3>
@@ -163,7 +163,7 @@ export default function LojaAcenis() {
             </div>
           </a>
 
-          <a href="#" className={styles.linkCard}>
+          <a href="https://www.magazineluiza.com.br/brinquedo-livro-eletronico-infantil-inteligente-didatico-portugues-ingles-toy-king/p/ek7j1caj6j/li/lltj/" className={styles.linkCard}>
             <div className={styles.cardProduto}>
               <img src={livro} alt="Produto 2" className={styles.produtoImagem} />
               <h3 className={styles.produtoNome}>Livro Didático Eletrônico - Português Inglês</h3>
@@ -174,7 +174,7 @@ export default function LojaAcenis() {
             </div>
           </a>
 
-          <a href="#" className={styles.linkCard}>
+          <a href="https://produto.mercadolivre.com.br/MLB-1757118294-brinquedo-educativo-pirmides-encaixar-formas-geometricas-_JM?matt_tool=47119386&matt_word=&matt_source=bing&matt_campaign=MLB_ML_BING_AO_T%20%26%20B-ALL-ALL_X_PLA_ALLB_TXS_ALL&matt_campaign_id=382858300&matt_ad_group=T%20%26%20B&matt_match_type=e&matt_network=o&matt_device=c&matt_keyword=default&msclkid=5ef534db00891d57d0395c8e9107a607&utm_source=bing&utm_medium=cpc&utm_campaign=MLB_ML_BING_AO_T%20%26%20B-ALL-ALL_X_PLA_ALLB_TXS_ALL&utm_term=4581733690678445&utm_content=T%20%26%20B" className={styles.linkCard}>
             <div className={styles.cardProduto}>
               <img src={formas} alt="Produto 3" className={styles.produtoImagem} />
               <h3 className={styles.produtoNome}>Brinquedo Educativo - Encaixar Formas Geométricas</h3>
@@ -185,7 +185,7 @@ export default function LojaAcenis() {
             </div>
           </a>
 
-          <a href="#" className={styles.linkCard}>
+          <a href="https://www.amazon.com.br/Multiplicando-Matem%C3%A1tica-GGB-Plast-1043/dp/B0B1N7XTN8/ref=sr_1_10?adgrpid=1147890855170570&dib=eyJ2IjoiMSJ9.RyvRi6IGSlyZYcBltQn9y7OWbFTxWwQzg5fRnEHIlY5OVpebf0ldhB_lLo8NFKhpqjNTUaklnG_txYp4OjVhFRRGcZy6Pl0kTUCtQRvEGF91Kxh_lmOJ95ivPVQhLCO_XWESFPVd3te6cl7Guz9RC2muVcVdv5GRmn20bwXL0Iqv4j_qhqBL2EWGxWSOucSgXITOKe1K3TYScG1krQlqFy15-IRcsXOdxQ5La_hGLXN2OPe7rcLmLd89i70adowXuo8s3vmNcCOwuCi7OrsurZqZKTlU25AuLUbQfTVWelA.3eVHdStwIOWs3pdFoLxbo8uDI6FgQYGDcMHa2bTUBws&dib_tag=se&hvadid=71743272086917&hvbmt=be&hvdev=c&hvlocphy=116068&hvnetw=o&hvqmt=e&hvtargid=kwd-71743758038046%3Aloc-20&hydadcr=26436_11599404&keywords=brinquedos+matem%C3%A1tica&mcid=303953e8af323fd88a0015e1e325464f&qid=1750452659&sr=8-10&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9" className={styles.linkCard}>
             <div className={styles.cardProduto}>
               <img src={matematica} alt="Produto 4" className={styles.produtoImagem} />
               <h3 className={styles.produtoNome}>Jogo Tabuada Multiplicando e Dividindo - Matemática</h3>
@@ -196,7 +196,7 @@ export default function LojaAcenis() {
             </div>
           </a>
 
-          <a href="#" className={styles.linkCard}>
+          <a href="https://produto.mercadolivre.com.br/MLB-1874498958-jogo-da-memoria-animais-e-filhotes-infantil-educativos-40-pc-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic" className={styles.linkCard}>
             <div className={styles.cardProduto}>
               <img src={memoria} alt="Produto 5" className={styles.produtoImagem} />
               <h3 className={styles.produtoNome}>Jogo da Memória Animais - 40 Peças</h3>
@@ -207,7 +207,7 @@ export default function LojaAcenis() {
             </div>
           </a>
 
-          <a href="#" className={styles.linkCard}>
+          <a href="https://www.americanas.com.br/quebra-cabeca-infantil-grandao-turma-da-monica-48-pecas-toyster-2603660497/p" className={styles.linkCard}>
             <div className={styles.cardProduto}>
               <img src={quebra2} alt="Produto 6" className={styles.produtoImagem} />
               <h3 className={styles.produtoNome}>Quebra Cabeça Turma da Mônica - 48 Peças</h3>
