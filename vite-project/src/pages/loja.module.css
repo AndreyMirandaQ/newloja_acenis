@@ -6,7 +6,7 @@
 
 .bannerSection {
   position: relative;
-  background-image: url('src/assets/img/banner.jpg');
+  background-image: url('../assets/img/banner.jpg');
   background-size: cover;
   background-position: center;
   height: 750px;
@@ -238,7 +238,7 @@
 
 .bannerFeedback {
   height: 600px;
-  background-image: url('src/assets/img/bannercolecao.png');
+  background-image: url('../assets/img/bannercolecao.png');
   background-size: cover;
   background-position: center;
   margin-top: 60px;
