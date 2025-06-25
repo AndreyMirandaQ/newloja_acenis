@@ -264,48 +264,48 @@ html, body {
   }
 
   .details h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
+    font-size: 32px; /* maior que antes */
+    margin-bottom: 20px;
   }
 
   .description {
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 20px; /* maior */
+    margin-bottom: 20px;
   }
 
   .rating {
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .stars {
-    font-size: 20px;
+    font-size: 22px; /* maior */
   }
 
   .ratingNumber {
-    font-size: 16px;
+    font-size: 18px; /* mantido */
   }
 
   .price {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 38px; /* maior */
+    margin-bottom: 25px;
   }
 
   .installments {
-    font-size: 16px;
+    font-size: 20px; /* maior */
     margin-top: -15px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .seller {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 20px; /* maior */
+    margin-bottom: 25px;
     justify-content: center;
   }
 
   .button {
-    padding: 14px 28px;
-    font-size: 18px;
+    padding: 16px 32px;
+    font-size: 22px; /* maior */
     align-self: center;
   }
 }

@@ -426,19 +426,19 @@
   }
 
   .bannerTitle {
-    font-size: 28px;
+    font-size: 32px; /* maior */
   }
 
   .bannerSubtitle {
-    font-size: 16px;
+    font-size: 20px; /* maior */
   }
 
   .produtosTitulo {
-    font-size: 28px;
+    font-size: 38px; /* maior */
   }
 
   .produtosSubtitulo {
-    font-size: 16px;
+    font-size: 20px; /* maior */
   }
 
   .cardProduto {
@@ -448,16 +448,28 @@
     margin-right: auto;
   }
 
+  .produtoNome {
+    font-size: 1.4rem; /* maior */
+  }
+
   .produtoPreco {
-    font-size: 20px;
+    font-size: 28px; /* maior */
+  }
+
+  .produtoParcela {
+    font-size: 20px; /* maior */
+  }
+
+  .produtoVendedor {
+    font-size: 22px; /* maior */
   }
 
   .feedbackTitulo {
-    font-size: 32px;
+    font-size: 40px; /* maior */
   }
 
   .depoimento {
-    font-size: 16px;
+    font-size: 20px; /* maior */
     overflow: visible;
     flex-grow: unset;
     max-height: none;
