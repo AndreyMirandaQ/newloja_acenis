@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import styles from './produto.module.css';
 
@@ -8,6 +8,10 @@ const Produto = () => {
   const [mostrarModal, setMostrarModal] = useState(false);
 
   const produto = location.state?.produto;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);  // Scroll para o topo quando o componente monta
+  }, []);
 
   if (!produto) {
     navigate('/');
